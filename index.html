@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wanderfolio — A Traveler's Journal of Five Beautiful Places</title>
+<meta name="description" content="A scrolling travel diary: Bali, Tokyo, Paris, New York and Rome, told as one unfolding story.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=DM+Sans:wght@400;500;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400;1,9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav" id="nav">
+  <a href="#top" class="brand">Wander<em>folio</em></a>
+  <nav id="navlinks" aria-label="Chapters"></nav>
+  <i class="bar" id="bar"></i>
+</header>
+<div class="rail" aria-hidden="true"><span id="plane">✈</span></div>
+
+<main id="top">
+  <section class="hero">
+    <div class="sun" data-p="-.15"></div>
+    <div class="hero-in">
+      <p class="kicker rv">A traveler's journal · Vol. I</p>
+      <h1 class="rv">Wander<em>folio</em></h1>
+      <p class="lead rv">Five places. One restless heart. <span class="hand">Come along — I'll tell you everything.</span></p>
+      <div class="stats rv"><b>5</b> chapters <b>5</b> countries <b>1</b> wide-eyed wanderer</div>
+      <a href="#prologue" class="cue">Turn the page <span>↓</span></a>
+    </div>
+    <div class="stamps" aria-hidden="true"><i>BALI</i><i>TOKYO</i><i>PARIS</i><i>NEW YORK</i><i>ROME</i></div>
+  </section>
+
+  <section class="prologue" id="prologue">
+    <div class="paper rv">
+      <span class="hand tag">Prologue</span>
+      <h2>It began with a suitcase and a question.</h2>
+      <p>What if the world is simply <em>bigger and kinder</em> than I'd been told? So I packed light, kept my eyes wide open, and went to find out. These are the pages I wrote along the way — in temples, on trains, over coffee, in the quiet after fireworks.</p>
+      <p class="hand sign">— the Traveler</p>
+    </div>
+  </section>
+
+  <div id="chapters"></div>
+
+  <section class="mapsec" id="map">
+    <div class="wrap">
+      <span class="hand tag rv">Chapter Six · The Map</span>
+      <h2 class="rv">The world I wandered</h2>
+      <p class="rv sub">Five pins, one long thread of memories. Tap a place to remember it with me.</p>
+      <div class="mapbox rv"><svg id="worldmap" viewBox="0 0 1000 500" role="img" aria-label="World map with five visited places"></svg><div class="pop" id="pop"></div></div>
+    </div>
+  </section>
+
+  <section class="epilogue">
+    <div class="paper rv">
+      <span class="hand tag">Epilogue</span>
+      <h2>The best souvenir is who you become.</h2>
+      <p>I came home with sand in my shoes, petals in my notebook, and a heart that is a little wider than before. The world is wonderfully, generously beautiful — and it's waiting for you, too.</p>
+      <p class="hand sign">Pack a bag. Begin your own chapter. ✈</p>
+      <a href="#top" class="btn">Back to the beginning ↑</a>
+    </div>
+  </section>
+</main>
+<footer>© <span id="yr"></span> Wanderfolio · Written with wonder.</footer>
+<script src="script.js"></script>
+</body>
+</html>
